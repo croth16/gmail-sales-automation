@@ -4,19 +4,9 @@ index 7e64f40e738c1e5d95aa4728cab161955aa8a9cb..3e7b3dd0c70fd27da32f0edcd9eabadb
 --- a/pyproject.toml
 +++ b/pyproject.toml
 @@ -1,7 +1,12 @@
- [project]
- name = "python-template"
- version = "0.1.0"
- description = ""
- authors = ["Your Name <you@example.com>"]
- requires-python = ">=3.11"
--dependencies = []
-+dependencies = [
-+    "google-api-python-client",
-+    "google-auth",
-+    "google-auth-oauthlib",
-+    "openai",
-+]
- 
-EOF
-)
+dependencies = [
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib",
+    "openai",
+]
